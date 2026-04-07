@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S.K.A.M English High School, Huliyurdurga</title>
+    <meta name="description" content="S.K.A.M English High School, Huliyurdurga - Nurturing Young Minds, Building Tomorrow's Leaders. Quality education with Karnataka State Board curriculum." />
+    <meta property="og:title" content="S.K.A.M English High School, Huliyurdurga" />
+    <meta property="og:description" content="Committed to academic excellence, character building, and holistic development of every student." />
+    <meta property="og:type" content="website" />
+    <script type="module" crossorigin src="/S.K.A.M_English_High_School/assets/index-dr3K7I_N.js"></script>
+    <link rel="stylesheet" crossorigin href="/S.K.A.M_English_High_School/assets/index-B_JDFoM3.css">
+    <script type="module">
+if (window.self === window.top) {
+  let lastPath = "";
+  function getPageNameFromPath(path) {
+    const segments = path.split("/").filter(Boolean);
+    return segments[0] || null;
+  }
+  function trackPageView() {
+    const path = window.location.pathname;
+    if (path === lastPath) return;
+    lastPath = path;
+    const pageName = getPageNameFromPath(path) || "home";
+    const appId = "";
+    if (!appId) return;
+    fetch(`/app-logs/${appId}/log-user-in-app/${pageName}`, {
+      method: "POST",
+    }).catch(() => {});
+  }
+  const originalPushState = history.pushState.bind(history);
+  history.pushState = function (...args) {
+    originalPushState(...args);
+    trackPageView();
+  };
+  const originalReplaceState = history.replaceState.bind(history);
+  history.replaceState = function (...args) {
+    originalReplaceState(...args);
+    trackPageView();
+  };
+  window.addEventListener("popstate", trackPageView);
+  trackPageView();
+}
+</script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
