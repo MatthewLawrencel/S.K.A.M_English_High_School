@@ -66,7 +66,7 @@ export default function Contact() {
               <div className="mt-6 rounded-xl overflow-hidden border border-border h-64">
                 <iframe
                   title="School Location"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15565.012!2d77.0386!3d12.8432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae6c5c7a1b1b1d%3A0x8b1b1b1b1b1b1b1b!2sHuliyurdurga%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1629789!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d223.2609114493044!2d77.03113064851448!3d12.824685803481817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1775557096646!5m2!1sen!2sinhttps://www.google.com/maps/embed?pb=!4v1775557248831!6m8!1m7!1si3B5iFAqrNuEAEX1xxTmRQ!2m2!1d12.82470918666959!2d77.03189658511464!3f264.24690516465546!4f17.275777483853446!5f0.7820865974627469"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}

@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { Users, GraduationCap, Award, TrendingUp } from 'lucide-react';
 
 const stats = [
-  { icon: Users, value: '1200+', label: 'Students' },
-  { icon: GraduationCap, value: '65+', label: 'Teachers' },
+  { icon: Users, value: '400+', label: 'Students' },
+  { icon: GraduationCap, value: '15+', label: 'Teachers' },
   { icon: Award, value: '25+', label: 'Years of Excellence' },
-  { icon: TrendingUp, value: '98%', label: 'Pass Rate' },
+  { icon: TrendingUp, value: '100%', label: 'Pass Rate' },
 ];
 
 export default function StatsBar() {
